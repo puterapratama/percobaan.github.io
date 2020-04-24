@@ -1,3 +1,13 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+/* head */
 * {
   outline: none;
 }
@@ -88,6 +98,10 @@ main small {
   margin-left: 25px;
   touch-action: manipulation;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.tulisan{
+  text-align: right;
 }
 .icon-bar {
   display: block;
@@ -200,14 +214,102 @@ ul {
   list-style: none;
 }
 
-@media (max-width: 1000px) {
-  #nav-content {
-    width: 50%;
-  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@meida (max width: 720px) {
-  #nav-content {
-    width: 100%;
-  }
+.heading {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+/* extra 1 */
+
+/* content */
+h1 {
+  color: #1F4D6C;
+}
+
+.name {
+  color: #1F4D6C;
+  font-size: 25px;
+}
+
+.team-container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  font-size: 15px;
+  color: gray;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.team-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.team-a {
+  float: left;
+  width: 33.33%;
+}
+
+.team-b {
+  float: left;
+  padding-top: 3%;
+  margin-left: 16.5%;
+  width: 25%;
+}
+
+
+
+.team-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.team-icon img {
+  border-radius: 50%;
+  border: 10px solid gainsboro;
+}
+
+.team-media a img {
+  padding-top: 3%;
+  padding-right: 10px;
+  width: 40px;
+}
+
+.team-media a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+/* extra 2 */
+
+/* footer */
+footer {
+  width: 100%; 
+	background-color: #1F4D6C; /*mengikuti warna font pada tulisan "our amazing team"*/
+	color: gainsboro;
+	height: 150px;
+	padding-top: 75px;
+	margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+footer span {
+  color: white;
 }
